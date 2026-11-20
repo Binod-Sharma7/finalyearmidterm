@@ -3,3 +3,13 @@
 .vscode/c_cpp_properties.json
 .vscode/launch.json
 .vscode/ipch
+
+# React/Vite generated files
+website/node_modules/
+website/dist/
+
+# Local environment variables
+.env
+.env.local
+website/.env
+website/.env.local

@@ -146,10 +146,6 @@ h1 {
   transform: translateY(-1px);
 }
 
-.control-button:active:not(:disabled) {
-  transform: translateY(0);
-}
-
 .control-button:focus-visible {
   outline: 3px solid #93c5fd;
   outline-offset: 3px;
@@ -169,14 +165,10 @@ h1 {
 }
 
 .loader {
-  display: none;
+  display: grid;
   height: 24px;
   margin: 0 0 14px;
   place-items: center;
-}
-
-.loader.visible {
-  display: grid;
 }
 
 .loader span {
